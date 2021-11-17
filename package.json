@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Maxim-Snoeys/portfolio.git"
+    "url": "git+https://github.com/kwalliedev/DakreinigingMarchal.git"
   },
   "keywords": [
     "Dakreiniger",
@@ -31,7 +31,7 @@
   "author": "Kwallie DEV",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Maxim-Snoeys/portfolio/issues"
+    "url": "https://github.com/kwalliedev/DakreinigingMarchal/issues"
   },
-  "homepage": "https://github.com/Maxim-Snoeys/portfolio#readme"
+  "homepage": "https://github.com/kwalliedev/DakreinigingMarchal#readme"
 }

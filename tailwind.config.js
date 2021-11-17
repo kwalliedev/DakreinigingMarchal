@@ -11,6 +11,9 @@ module.exports = {
             screens: {
                 '3xl': '2000px',
             },
+            backgroundImage: theme => ({
+                'home': "url('../assets/img/home.jpg')",
+            }),
             maxWidth: {
                 'xxs': '15rem',
                 '8xl': '85rem'
