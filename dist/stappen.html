@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoe gaan we te werk? | Dakreiniger Marchal</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.1.6/dist/css/splide.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+    <nav id="site-menu"
+         class="z-40 flex flex-col md:flex-row w-full justify-between items-center px-4 sm:px-6 py-1 bg-blue-900 text-white fixed top-0">
+        <div class="w-full md:w-auto self-start md:self-center flex flex-row md:flex-none flex-no-wrap justify-between items-center lg:ml-2">
+            <a href="index.html" class="no-underline py-1">
+                <h1 class="tracking-widest">Dakreiniger Marchal</h1>
+            </a>
+            <button id="menuBtn" class="block md:hidden focus:outline-none p-2 ml-auto" onclick="navToggle()">
+                <span class="fas fa-bars"></span>
+            </button>
+        </div>
+        <div id="menu"
+             class="w-full md:w-auto lg:mr-2 self-end md:flex flex-col md:flex-row h-20ll pt-4 md:pt-0 hidden text-center">
+            <a class="text-dark w-full no-underline md:w-auto md:px-4 py-2 md:py-1 md:pt-2"
+               href=""
+               onclick="navToggle()">
+                <span class="">Dakherstellingen</span>
+            </a>
+            <a class="text-dark w-full no-underline md:w-auto md:px-4 py-2 md:py-1 md:pt-2"
+               href="stappen.html"
+               onclick="navToggle()">
+                <span class="">Hoe gaan we te werk?</span>
+            </a>
+            <a class="text-dark w-full no-underline md:w-auto md:px-4 py-2 md:py-1 md:pt-2"
+               href=""
+               onclick="navToggle()">
+                <span class="">Offerte aanvragen</span>
+            </a>
+            <a class="text-dark w-full no-underline md:w-auto md:px-4 py-2 md:py-1 md:pt-2"
+               href=""
+               onclick="navToggle()">
+                <span class="">Contact</span>
+            </a>
+        </div>
+    </nav>
+</header>
+
+<div class="mt-20 m-10 md:mx-auto mb-10">
+    <ul class="timeline border-l-4 border-blue-800 relative m-auto list-none w-64 sm:w-1/2 text-white space-y-4">
+        <li class="event pb-4 ml-2 h-20 relative bg-gray-800 border-b border-gray-600 flex items-center rounded-tr-3xl rounded-bl-3xl" data-step="Stap 1">
+            <h3 class="pt-4 ml-4">Nazicht van het dak</h3>
+
+        </li>
+
+        <li class="event pb-4 ml-2 h-20 relative bg-gray-800 border-b border-gray-600 flex items-center rounded-tr-3xl rounded-bl-3xl" data-step="Stap 2">
+            <h3 class="pt-4 ml-4">Filter plaatsen in de goot</h3>
+        </li>
+        <li class="event pb-4 ml-2 h-20 relative bg-gray-800 border-b border-gray-600 flex items-center rounded-tr-3xl rounded-bl-3xl" id="step" data-step="Stap 3">
+            <h3 class="pt-4 ml-4"> Zachte reiniging van het dak</h3>
+        </li>
+
+        <li class="event pb-4 ml-2 h-20 relative bg-gray-800 border-b border-gray-600 flex items-center rounded-tr-3xl rounded-bl-3xl" data-step="Stap 4">
+            <h3 class="pt-4 ml-4">Naspoelen van het dak</h3>
+        </li>
+
+        <li class="event pb-4 ml-2 h-20 relative bg-gray-800 border-b border-gray-600 flex items-center rounded-tr-3xl rounded-bl-3xl" data-step="Stap 5">
+            <h3 class="pt-4 ml-4">Reiniging van zonnepanelen</h3>
+        </li>
+
+        <li class="event pb-4 ml-2 h-20 relative bg-gray-800 border-b border-gray-600 flex items-center rounded-tr-3xl rounded-bl-3xl" data-step="Stap 6">
+            <h3 class="pt-4 ml-4">Plaatsen van anti&dash;mos</h3>
+        </li>
+
+        <li class="event pb-4 ml-2 h-20 relative bg-gray-800 border-b border-gray-600 flex items-center rounded-tr-3xl rounded-bl-3xl" data-step="Stap 7">
+            <h3 class="pt-4 ml-4">Afplakken waar nodig</h3>
+        </li>
+
+        <li class="event pb-4 ml-2 h-20 relative bg-gray-800 border-b border-gray-600 flex items-center rounded-tr-3xl rounded-bl-3xl" data-step="Stap 8">
+            <h3 class="pt-4 ml-4">Plaatsen van anti&dash;mosprimer</h3>
+        </li>
+
+        <li class="event pb-4 ml-2 h-20 relative bg-gray-800 border-b border-gray-600 flex items-center rounded-tr-3xl rounded-bl-3xl" data-step="Stap 9">
+            <h3 class="pt-4 ml-4">
+                Leien/betonnen dakpannen: Plaatsen van dubbele verflaag
+            </h3>
+        </li>
+
+        <li class="event pb-4 ml-2 h-20 relative bg-gray-800 border-b border-gray-600 flex items-center rounded-tr-3xl rounded-bl-3xl" data-step="Stap 9a">
+            <h3 class="pt-4 ml-4">Gebakken dakpannen: Plaatsen van glansbeschermingslaag</h3>
+        </li>
+
+        <li class="event pb-4 ml-2 h-20 relative bg-gray-800 border-b border-gray-600 flex items-center rounded-tr-3xl rounded-bl-3xl" data-step="Stap 10">
+            <h3 class=" ml-4">Opgeruimd en netjes achtergelaten</h3>
+        </li>
+    </ul>
+</div>
+
+</body>
+<script src="js/nav.js"></script>
+</html>
