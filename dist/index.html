@@ -9,7 +9,7 @@
           integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
           crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="stylesheet" href="css/style.css">
-    <title>Dakreiniger Marchal</title>
+    <title>Dakreinig Marchal</title>
 </head>
 <body class="bg-gray-100">
 
@@ -43,8 +43,9 @@
            onclick="navToggle()">
             <span class="">Dakherstellingen</span>
         </a>
-        <a class="text-dark w-full no-underline md:w-auto md:px-4 py-2"
-           href=""
+
+        <a class="text-dark w-full no-underline md:w-auto md:px-4 py-2 md:py-1 md:pt-2"
+           href="stappen.html"
            onclick="navToggle()">
             <span class="">Hoe gaan we te werk?</span>
         </a>
@@ -90,7 +91,7 @@
         <p class=" py-2">Ook een dak vraagt om
             onderhoud en geeft uw woning een meerwaarde, uw dak krijgt een langere levensduur. Zonder mossen en
             algen op uw dak blijft uw regenwater langer proper, helder en uw afvoeren geraken niet verstopt. </p>
-        <p class="pt-2">Ook reinigen van uw zonnepanelen met OSMOZE-WATER.</p>
+        <p class="pt-2">Ook reinigen van uw zonnepanelen met osmose&dash;water.</p>
     </div>
 
 </section>
@@ -259,7 +260,8 @@
 
 <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.1.6/dist/js/splide.min.js"></script>
 <script src="assets/js/mail.js"></script>
-
+<script src="js/nav.js"></script>
+  
 <script>
     var splide = new Splide('.splide', {
         pagination: 'false',
@@ -277,15 +279,6 @@
 </script>
 
 <script>
-    function navToggle() {
-        var btn = document.getElementById('menuBtn');
-        var nav = document.getElementById('menu');
-
-        btn.classList.toggle('open');
-        nav.classList.toggle('flex');
-        nav.classList.toggle('hidden');
-    }
-
     var labels = document.getElementsByClassName("star");
     for (i = 0; i < labels.length; i++) {
         labels[i].innerHTML += "&ast;"
