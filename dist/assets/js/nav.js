@@ -1,6 +1,6 @@
 function navToggle() {
-    var btn = document.getElementById('menuBtn');
-    var nav = document.getElementById('menu');
+    let btn = document.getElementById('menuBtn');
+    let nav = document.getElementById('menu');
 
     btn.classList.toggle('open');
     nav.classList.toggle('flex');
