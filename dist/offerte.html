@@ -15,28 +15,31 @@
 
 <header>
     <nav id="site-menu"
-         class="z-40 flex flex-col md:flex-row w-full justify-between items-center px-4 sm:px-6 py-1 bg-blue-900 text-white fixed top-0">
+         class="z-40 flex flex-col md:flex-row w-full justify-between items-center px-4 sm:px-6 bg-blue-900 text-white fixed top-0">
         <div class="w-full md:w-auto self-start md:self-center flex flex-row md:flex-none flex-no-wrap justify-between items-center lg:ml-2">
             <a href="index.html" class="no-underline py-1">
-                <h1 class="tracking-widest">Vraag je offerte aan</h1>
+                <h1 class="tracking-widest font-semibold">Dakreiniging LM</h1>
             </a>
             <button id="menuBtn" class="block md:hidden focus:outline-none p-2 ml-auto" onclick="navToggle()">
                 <span class="fas fa-bars"></span>
             </button>
         </div>
         <div id="menu"
-             class="w-full md:w-auto lg:mr-2 self-end md:flex flex-col md:flex-row h-20ll pt-4 md:pt-0 hidden text-center">
-            <a class="text-dark w-full no-underline md:w-auto md:px-4 py-2 md:py-1 md:pt-2" href="dak.html" onclick="navToggle()">
+             class="w-full md:w-auto self-end md:flex flex-col md:flex-row h-full py-4 md:py-0 md:pt-0 hidden text-center">
+            <a class="w-full no-underline md:w-auto md:px-4 py-2 md:py-4" href="dak.html" onclick="navToggle()">
                 <span class="">Dakherstellingen</span>
             </a>
-            <a class="text-dark w-full no-underline md:w-auto md:px-4 py-2 md:py-1 md:pt-2" href="stappen.html" onclick="navToggle()">
+            <a class="w-full no-underline md:w-auto md:px-4 py-2 md:py-4" href="mos.html" onclick="navToggle()">
+                <span class="">Ontmossen</span>
+            </a>
+            <a class="w-full no-underline md:w-auto md:px-4 py-2 md:py-4" href="stappen.html" onclick="navToggle()">
                 <span class="">Hoe gaan we te werk?</span>
             </a>
-            <a class="text-dark w-full no-underline md:w-auto md:px-4 py-2 md:py-1 md:pt-2" href="offerte.html" onclick="navToggle()">
-                <span class="">Offerte aanvragen</span>
+            <a class="hidden md:inline-block w-full no-underline md:w-auto md:px-4 md:ml-4 md:py-2 md:my-2 bg-blue-700 font-semibold rounded-full" href="offerte.html" onclick="navToggle()">
+                <span class="">Contact / Offerte</span>
             </a>
-            <a class="text-dark w-full no-underline md:w-auto md:px-4 py-2 md:py-1 md:pt-2" href="index.html#contact" onclick="navToggle()">
-                <span class="">Contact</span>
+            <a class="md:hidden w-full no-underline py-2" href="offerte.html" onclick="navToggle()">
+                <span class="">Contact / Offerte</span>
             </a>
         </div>
     </nav>
@@ -120,36 +123,35 @@
 </section>
 
 <footer class="bg-blue-900 text-white">
-    <div class="flex flex-wrap mx-4 md:mx-24 py-4 md:py-8 justify-around lg:justify-evenly">
-        <div class="w-3/5 lg:w-1/4">
-            <h2 class="text-2xl md:text-3xl mb-4 font-bold uppercase">Contact</h2>
+    <!--        <div class="flex-grow">
+                <iframe width="100%" height="100%" style="border:0;"
+                        src="https://maps.google.com/maps?width=700&amp;height=540&amp;hl=en&amp;q=Action%20Herentals&amp;ie=UTF8&amp;t=&amp;z=13&amp;iwloc=B&amp;output=embed"
+                ></iframe>
+            </div>-->
 
-            <div class="mb-4">
-                <p>Belgiëlaan 5</p>
-                <p>2200 Herentals</p>
-                <p>België</p>
-            </div>
-
-            <div class="flex flex-col">
-                <div class="flex flex-col mb-4">
-                    <a href="tel:+32473671944">+32 473 67 19 44</a>
-                    <a href="mailto:test@test.be">info@dakreiniginglm.be</a>
-                </div>
-            </div>
+    <div class="mx-auto text-center pt-4 pb-2">
+        <div class="pb-4 text-lg">
+            <a href="mailto:info@dakreiniginglm.be">
+                <i class="fas fa-envelope mr-2 pb-4 md:pb-0"></i>info@dakreiniginglm.be
+            </a>
+            <br class="block sm:hidden">
+            <span class="hidden sm:inline-block m-0 sm:mx-2 md:mx-3 lg:mx-5">
+                &bull;
+            </span>
+            <a href="tel:+32473671944">
+                <i class="fas fa-phone-alt mr-2 pb-4 md:pb-0"></i>+32 473 67 19 44
+            </a>
+            <br class="block sm:hidden">
+            <span class="hidden sm:inline-block m-0 sm:mx-2 md:mx-3 lg:mx-5">
+                &bull;
+            </span>
+            <i class="fas fa-map-marked-alt mr-2 pb-4 md:pb-0"></i>2200 Herentals
         </div>
-
-        <div class="w-2/5 lg:w-1/4 text-right md:text-left">
-            <h2 class="text-2xl md:text-3xl mb-4 font-bold uppercase">Socials</h2>
-            <div class="space-x-4">
-                <a href="#"><i class="fab fa-facebook-f fa-2x"></i></a>
-                <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
-            </div>
-        </div>
-
-        <div class="flex-grow">
-            <iframe width="100%" height="100%" style="border:0;"
-                    src="https://maps.google.com/maps?width=700&amp;height=540&amp;hl=en&amp;q=Action%20Herentals&amp;ie=UTF8&amp;t=&amp;z=13&amp;iwloc=B&amp;output=embed"
-            ></iframe>
+        <div class="text-center pb-2">
+            &copy; <span id="jaar"></span> Dakreiniging LM<span class="mx-2">&dash;</span><span>Made by
+        <a href="https://www.mve.be" target="blank" class="font-semibold">Michiel Van Eynde</a> &
+        <a href="https://www.maximsnoeys.be" target="blank" class="font-semibold">Maxim Snoeys</a>
+    </span>
         </div>
     </div>
 </footer>

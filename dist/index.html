@@ -24,8 +24,35 @@
     }
 </style>
 
+<!--<nav id="site-menu"-->
+<!--     class="z-40 flex flex-col md:flex-row w-full justify-between items-center pl-4 sm:pl-6 bg-blue-900 text-white fixed top-0">-->
+<!--    <div class="w-full md:w-auto self-start md:self-center flex flex-row md:flex-none flex-no-wrap justify-between items-center lg:ml-2">-->
+<!--        <a href="#" class="no-underline py-1">-->
+<!--            <h1 class="tracking-widest font-semibold">Dakreiniging LM</h1>-->
+<!--        </a>-->
+<!--        <button id="menuBtn" class="block md:hidden focus:outline-none p-2 ml-auto" onclick="navToggle()">-->
+<!--            <span class="fas fa-bars"></span>-->
+<!--        </button>-->
+<!--    </div>-->
+<!--    <div id="menu"-->
+<!--         class="w-full md:w-auto self-end md:flex flex-col md:flex-row h-full pt-4 md:pt-0 hidden text-center">-->
+<!--        <a class="w-full no-underline md:w-auto md:px-4 py-2 md:py-4" href="dak.html" onclick="navToggle()">-->
+<!--            <span class="">Dakherstellingen</span>-->
+<!--        </a>-->
+<!--        <a class="w-full no-underline md:w-auto md:px-4 py-2 md:py-4" href="mos.html" onclick="navToggle()">-->
+<!--            <span class="">Ontmossen</span>-->
+<!--        </a>-->
+<!--        <a class="w-full no-underline md:w-auto md:px-4 py-2 md:py-4" href="stappen.html" onclick="navToggle()">-->
+<!--            <span class="">Hoe gaan we te werk?</span>-->
+<!--        </a>-->
+<!--        <a class="w-full no-underline md:w-auto md:px-4 md:ml-12 py-2 md:py-4 bg-blue-700 font-semibold" href="offerte.html" onclick="navToggle()">-->
+<!--            <span class="">Contact / Offerte</span>-->
+<!--        </a>-->
+<!--    </div>-->
+<!--</nav>-->
+
 <nav id="site-menu"
-     class="z-40 flex flex-col md:flex-row w-full justify-between items-center px-4 sm:px-6 py-1 bg-blue-900 text-white fixed top-0">
+     class="z-40 flex flex-col md:flex-row w-full justify-between items-center px-4 sm:px-6 bg-blue-900 text-white fixed top-0">
     <div class="w-full md:w-auto self-start md:self-center flex flex-row md:flex-none flex-no-wrap justify-between items-center lg:ml-2">
         <a href="#" class="no-underline py-1">
             <h1 class="tracking-widest font-semibold">Dakreiniging LM</h1>
@@ -35,19 +62,21 @@
         </button>
     </div>
     <div id="menu"
-         class="w-full md:w-auto lg:mr-2 self-end md:flex flex-col md:flex-row h-full pt-4 md:pt-0 hidden text-center">
-        <a class="text-dark w-full no-underline md:w-auto md:px-4 py-2" href="dak.html" onclick="navToggle()">
+         class="w-full md:w-auto self-end md:flex flex-col md:flex-row h-full py-4 md:py-0 md:pt-0 hidden text-center">
+        <a class="w-full no-underline md:w-auto md:px-4 py-2 md:py-4" href="dak.html" onclick="navToggle()">
             <span class="">Dakherstellingen</span>
         </a>
-
-        <a class="text-dark w-full no-underline md:w-auto md:px-4 py-2 md:py-1 md:pt-2" href="stappen.html" onclick="navToggle()">
+        <a class="w-full no-underline md:w-auto md:px-4 py-2 md:py-4" href="mos.html" onclick="navToggle()">
+            <span class="">Ontmossen</span>
+        </a>
+        <a class="w-full no-underline md:w-auto md:px-4 py-2 md:py-4" href="stappen.html" onclick="navToggle()">
             <span class="">Hoe gaan we te werk?</span>
         </a>
-        <a class="text-dark w-full no-underline md:w-auto md:px-4 py-2" href="offerte.html" onclick="navToggle()">
-            <span class="">Offerte aanvragen</span>
+        <a class="hidden md:inline-block w-full no-underline md:w-auto md:px-4 md:ml-4 md:py-2 md:my-2 bg-blue-700 font-semibold rounded-full" href="offerte.html" onclick="navToggle()">
+            <span class="">Contact / Offerte</span>
         </a>
-        <a class="text-dark w-full no-underline md:w-auto md:px-4 py-2" href="#contact" onclick="navToggle()">
-            <span class="">Contact</span>
+        <a class="md:hidden w-full no-underline py-2" href="offerte.html" onclick="navToggle()">
+            <span class="">Contact / Offerte</span>
         </a>
     </div>
 </nav>
@@ -88,30 +117,6 @@
     </div>
 </section>
 
-<section class="min-h-screen flex flex-wrap flex-row justify-around bg-gray-300 px-0 md:px-60 py-8 md:py-0">
-        <a href="#" class="m-auto flex flex-col transform hover:scale-95 duration-300 mx-4 py-4 px-4">
-        <div class="mx-auto">
-            <img src="./assets/img/home.jpg" alt="Dak" class="h-60 md:h-80 rounded-xl">
-        </div>
-
-        <div class="mx-auto text-center mt-4">
-            <h2 class="text-3xl text-blue-600 font-bold">Dak herstellingen</h2>
-            <p>Een lek in uw dak? Wij hebben de oplossing!</p>
-        </div>
-    </a>
-
-        <a href="#" class="m-auto flex flex-col transform hover:scale-95 duration-300 mx-4 py-4 px-4">
-            <div class="mx-auto ">
-                <img src="./assets/img/mos.jpg" alt="Dak" class="h-60 md:h-80 rounded-xl">
-            </div>
-
-            <div class="mx-auto text-center mt-4">
-                <h2 class="text-3xl text-blue-600 font-bold">Dak ontmossen en coaten</h2>
-                <p>Mos op uw dak? Wij hebben de oplossing!</p>
-            </div>
-        </a>
-</section>
-
 <section class="h-96">
     <div class="splide">
         <div class="splide__track">
@@ -135,114 +140,62 @@
     </div>
 </section>
 
-<section id="contact" class="min-h-screen flex bg-gray-100 pt-12 md:pt-0">
-    <div class="m-auto w-10/12 md:w-8/12">
-        <h2 class="text-center text-3xl text-blue-600 font-bold font-titel uppercase md:mb-4">Contact</h2>
 
-        <form id="form" class="flex flex-wrap">
-            <div class="w-full mt-6 md:w-1/2 md:pr-4">
-                <label for="voornaam" class="text-blue-600 font-semibold">Voornaam<span
-                        class="star text-red-700 ml-0.5"></span></label>
-                <input type="text" id="voornaam" name="voornaam" value="" required
-                       class="mt-0 block w-full px-0.5 border-0 border-b-2 border-gray-200 bg-gray-100 focus:ring-0 focus:border-blue-900 transition duration-300 ease-in-out"
-                       placeholder="Jan">
-                <div class="hidden text-red-700">
-                    Gelieve een voornaam in te vullen
-                </div>
-            </div>
+<section class="min-h-screen flex flex-wrap flex-row justify-around  px-0 md:px-60 py-8 md:py-0">
+    <a href="dak.html" class="m-auto flex flex-col transform hover:scale-95 duration-300 mx-4 py-4 px-4">
+        <div class="mx-auto">
+            <img src="./assets/img/home.jpg" alt="Dak" class="h-60 md:h-80 rounded-xl">
+        </div>
 
-            <div class="w-full md:w-1/2 mt-6 md:pl-4">
-                <label for="achternaam" class="text-blue-600 font-semibold">Achternaam<span
-                        class="star text-red-700 ml-0.5"></span></label>
-                <input type="text" id="achternaam" name="achternaam" value="" required
-                       class="mt-0 block w-full px-0.5 border-0 border-b-2 border-gray-200 bg-gray-100 focus:ring-0 focus:border-blue-900 transition duration-300 ease-in-out"
-                       placeholder="Janssens">
-                <div class="hidden text-red-700">
-                    Gelieve een achternaam in te vullen
-                </div>
-            </div>
+        <div class="mx-auto text-center mt-4">
+            <h2 class="text-3xl text-blue-600 font-bold">Dak herstellingen</h2>
+            <p>Een lek in uw dak? Wij hebben de oplossing!</p>
+        </div>
+    </a>
 
+    <a href="mos.html" class="m-auto flex flex-col transform hover:scale-95 duration-300 mx-4 py-4 px-4">
+        <div class="mx-auto ">
+            <img src="./assets/img/mos.jpg" alt="Dak" class="h-60 md:h-80 rounded-xl">
+        </div>
 
-            <div class="mt-6 w-full">
-                <label for="email" class="text-blue-600 font-semibold">E-mail<span
-                        class="star text-red-700 ml-0.5"></span></label>
-                <input type="email" id="email" name="email" value="" required
-                       class="mt-0 block w-full px-0.5 border-0 border-b-2 border-gray-200 bg-gray-100 focus:ring-0 focus:border-blue-900 transition duration-500 ease-in-out"
-                       placeholder="jan.janssens@telenet.be"
-                       pattern="[A-Za-z0-9._%+-]{3,}@[a-zA-Z]{3,}([.]{1}[a-zA-Z]{2,}|[.]{1}[a-zA-Z]{2,}[.]{1}[a-zA-Z]{2,})">
-                <div class="hidden text-red-700">
-                    Dit is geen geldig e&dash;mailadres
-                </div>
-            </div>
-
-            <div class="mt-6 w-full">
-                <label for="onderwerp" class="text-blue-600 font-semibold">Onderwerp<span
-                        class="star text-red-700 ml-0.5"></span></label>
-                <input type="text" id="onderwerp" name="onderwerp" required
-                       class="mt-0 block w-full px-0.5 border-0 border-b-2 border-gray-200 bg-gray-100 focus:ring-0 focus:border-blue-900 transition duration-300 ease-in-out"
-                       placeholder="Aanvraag offerte dakreiniging">
-                <div class="hidden text-red-700">
-                    Gelieve een onderwerp in te vullen
-                </div>
-            </div>
-
-            <div class="mt-6 w-full">
-                <label for="bericht" class="text-blue-600 font-semibold">Uw bericht<span
-                        class="star text-red-700 ml-0.5"></span></label>
-                <textarea id="bericht" rows="3" name="bericht" required
-                          class="mt-0 block w-full px-0.5 border-0 border-b-2 border-gray-200 bg-gray-100 focus:ring-0 focus:border-blue-900 transition duration-500 ease-in-out"></textarea>
-                <div class="hidden text-red-700">
-                    Je bericht mag niet leeg zijn
-                </div>
-            </div>
-
-            <div class="mt-6 mb-8 w-full flex justify-between">
-                <div>
-                    <span class="star text-red-700 font-semibold mr-0.5"></span>Verplicht
-                </div>
-
-                <div class="">
-                    <button type="submit" id="submitForm"
-                            class="bg-blue-600 hover:bg-blue-900 text-white font-bold py-2 px-4 rounded transition ease-in-out duration-300">
-                        Verstuur
-                    </button>
-                </div>
-            </div>
-        </form>
-    </div>
+        <div class="mx-auto text-center mt-4">
+            <h2 class="text-3xl text-blue-600 font-bold">Dak ontmossen en coaten</h2>
+            <p>Mos op uw dak? Wij hebben de oplossing!</p>
+        </div>
+    </a>
 </section>
 
+
 <footer class="bg-blue-900 text-white">
-    <div class="flex flex-wrap mx-4 md:mx-24 py-4 md:py-8 justify-around lg:justify-evenly">
-        <div class="w-3/5 lg:w-1/4">
-            <h2 class="text-2xl md:text-3xl mb-4 font-bold uppercase">Contact</h2>
+    <!--        <div class="flex-grow">
+                <iframe width="100%" height="100%" style="border:0;"
+                        src="https://maps.google.com/maps?width=700&amp;height=540&amp;hl=en&amp;q=Action%20Herentals&amp;ie=UTF8&amp;t=&amp;z=13&amp;iwloc=B&amp;output=embed"
+                ></iframe>
+            </div>-->
 
-            <div class="mb-4">
-                <p>Belgiëlaan 5</p>
-                <p>2200 Herentals</p>
-                <p>België</p>
-            </div>
-
-            <div class="flex flex-col">
-                <div class="flex flex-col mb-4">
-                    <a href="tel:+32473671944">+32 473 67 19 44</a>
-                    <a href="mailto:test@test.be">info@dakreiniginglm.be</a>
-                </div>
-            </div>
+    <div class="mx-auto text-center pt-4 pb-2">
+        <div class="pb-4 text-lg">
+            <a href="mailto:info@dakreiniginglm.be">
+                <i class="fas fa-envelope mr-2 pb-4 md:pb-0"></i>info@dakreiniginglm.be
+            </a>
+            <br class="block sm:hidden">
+            <span class="hidden sm:inline-block m-0 sm:mx-2 md:mx-3 lg:mx-5">
+                &bull;
+            </span>
+            <a href="tel:+32473671944">
+                <i class="fas fa-phone-alt mr-2 pb-4 md:pb-0"></i>+32 473 67 19 44
+            </a>
+            <br class="block sm:hidden">
+            <span class="hidden sm:inline-block m-0 sm:mx-2 md:mx-3 lg:mx-5">
+                &bull;
+            </span>
+            <i class="fas fa-map-marked-alt mr-2 pb-4 md:pb-0"></i>2200 Herentals
         </div>
-
-        <div class="w-2/5 lg:w-1/4 text-right md:text-left">
-            <h2 class="text-2xl md:text-3xl mb-4 font-bold uppercase">Socials</h2>
-            <div class="space-x-4">
-                <a href="#"><i class="fab fa-facebook-f fa-2x"></i></a>
-                <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
-            </div>
-        </div>
-
-        <div class="flex-grow">
-            <iframe width="100%" height="100%" style="border:0;"
-                    src="https://maps.google.com/maps?width=700&amp;height=540&amp;hl=en&amp;q=Action%20Herentals&amp;ie=UTF8&amp;t=&amp;z=13&amp;iwloc=B&amp;output=embed"
-            ></iframe>
+        <div class="text-center pb-2">
+            &copy; <span id="jaar"></span> Dakreiniging LM<span class="mx-2">&dash;</span><span>Made by
+        <a href="https://www.mve.be" target="blank" class="font-semibold">Michiel Van Eynde</a> &
+        <a href="https://www.maximsnoeys.be" target="blank" class="font-semibold">Maxim Snoeys</a>
+    </span>
         </div>
     </div>
 </footer>
@@ -255,4 +208,13 @@
 
 <script src="assets/js/splide.js"></script>
 <script src="assets/js/star.js"></script>
+
+<script>
+    document.getElementById("jaar").innerHTML = new Date().getFullYear();
+    var labels = document.getElementsByClassName("star");
+    for (i = 0; i < labels.length; i++) {
+        labels[i].innerHTML += "&ast;"
+    }
+
+</script>
 </html>
