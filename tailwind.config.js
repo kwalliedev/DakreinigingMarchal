@@ -20,7 +20,7 @@ module.exports = {
                 '8xl': '85rem'
             },
             minHeight: {
-                '50': '50vh'
+                '75': '75%'
             },
             spacing: {
                 '128': '32rem',
