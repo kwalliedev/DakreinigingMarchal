@@ -13,6 +13,7 @@ module.exports = {
             },
             backgroundImage: theme => ({
                 'home': "url('../assets/img/home.jpg')",
+                'voor-na': "url('../assets/img/voor_na.png')"
             }),
             maxWidth: {
                 'xxs': '15rem',
@@ -20,6 +21,9 @@ module.exports = {
             },
             minHeight: {
                 '50': '50vh'
+            },
+            spacing: {
+                '128': '32rem',
             }
         },
     },
