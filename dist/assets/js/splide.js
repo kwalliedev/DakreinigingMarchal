@@ -1,6 +1,6 @@
 let splide = new Splide('.splide', {
     pagination: 'false',
-    height: '24rem',
+    height: '28rem',
 });
 let bar = splide.root.querySelector('.my-slider-progress-bar');
 
