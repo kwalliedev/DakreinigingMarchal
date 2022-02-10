@@ -12,7 +12,7 @@ module.exports = {
                 '3xl': '2000px',
             },
             backgroundImage: theme => ({
-                'home': "url('../assets/img/home.jpg')",
+                'home': "url('../assets/img/dak.jpeg')",
                 'voor-na': "url('../assets/img/voor_na.png')"
             }),
             maxWidth: {
